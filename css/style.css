@@ -1,0 +1,97 @@
+/*font links*/
+@font-face{
+	src: url(../fonts/Poppins/Poppins-Bold.ttf);
+	font-family: Poppins-Bold;
+}
+@font-face{
+	src: url(../fonts/Poppins/Poppins-Regular.ttf);
+	font-family: Poppins-Regular;
+}
+@font-face{
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+/*common start*/
+body{
+	font-family: Poppins-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 10px 0;
+	background-color: #F0FFF0;
+}
+.c_nav{
+
+}
+.logo{
+	width: 195px;
+}
+.menu ul li a{
+	padding: 0 25px !important;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000 !important;
+	line-height: 24px;
+	
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+.btn_common{
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF !important;
+	background-color: #21B573 !important;
+	border-radius: 33px;
+}
+.btn_header{
+	margin-left: 5px;
+	padding: 12px 25px;
+	width: 105px;
+    height: 45px;
+}
+.btn_common:hover{
+	background-color: #FD511A !important;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 30px 0 60px;
+	background-color: #F0FFF0;
+}
+.b_text{}
+.b_p1{
+	color: #FD511A;
+	line-height: 24px;
+}
+.b_h1{
+	margin: 10px 0 19px;
+	font-family: Poppins-Bold;
+	font-weight: 700;	
+	font-size: 48px;
+	line-height: 70px;
+}
+.b_h1 span{
+	color: #21B573;
+}
+.b_p2{
+	line-height: 36px;
+}
+.b_btn{
+	margin-top: 14px;
+    padding: 12px 30px;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.b_img{}
+.b_img img{}
+
+/*banner end*/
